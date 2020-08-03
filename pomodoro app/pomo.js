@@ -57,7 +57,7 @@ function showTime(seconds){
 start.addEventListener("click",function() { 
     count.innerHTML++;
     
-    return timer(1300);
+    return timer(1500);
     
 }
     
