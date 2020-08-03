@@ -74,6 +74,25 @@ header h1{
 
 }
 
+.next{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.begin{
+    text-align: center;
+   
+    font-size: 2rem;
+}
+
+.fa-arrow-alt-circle-right{
+    color: #ff2e63;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
 /* Homepage ends here*/
 
 .boxes{
@@ -145,6 +164,10 @@ input{
     display: none;
 }
 
+.active{
+    display: block;
+}
+
 #set{
     padding: 10px 20px;
     color:white;
@@ -167,6 +190,16 @@ input{
         margin-top: 20px;
         display: block;
     }
+}
+
+a:hover{
+    color: bisque;
+}
+
+.more{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 
