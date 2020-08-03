@@ -56,27 +56,30 @@ function showTime(seconds){
 
 start.addEventListener("click",function() { 
     count.innerHTML++;
-    function useCounter() {
     
-        let half = document.getElementById("half");
-    if (count.innerHTML<4){
-        half.classList.remove("active");
-        half.classList.add("inactive");
-    }
-    
-    else if (count.innerHTML>=4) {
-       
-        half.classList.remove("inactive");
-       half.classList.add("active");
-    }
-    }
     return timer(1800);
     
 }
     
 )
 
+function useCounter() {
+    let count = document.getElementById("count");
+    
+    let half = document.getElementById("half");
+if (count.innerHTML<4){
+    half.classList.remove("active");
+    half.classList.add("inactive");
+}
 
+else if (count.innerHTML>=4) {
+   
+    half.classList.remove("inactive");
+   half.classList.add("active");
+}
+}
+
+useCounter();
 
 
 
