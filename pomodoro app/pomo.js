@@ -57,13 +57,15 @@ function showTime(seconds){
 start.addEventListener("click",function() { 
     count.innerHTML++;
     
-    return timer(1800);
+    return timer(1300);
     
 }
     
 )
 
-function useCounter() {
+let watchCounter= setInterval ( function useCounter() {
+    
+
     let count = document.getElementById("count");
     
     let half = document.getElementById("half");
@@ -77,7 +79,7 @@ else if (count.innerHTML>=4) {
     half.classList.remove("inactive");
    half.classList.add("active");
 }
-}
+},1000)
 
 useCounter();
 
@@ -95,6 +97,11 @@ useCounter();
 
 five.addEventListener("click",function () {
     return timer(300);
+
+})
+
+half.addEventListener("click",function () {
+    return timer(1200);
 
 })
 
