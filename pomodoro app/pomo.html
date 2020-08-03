@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pomo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+</head>
+<body   >
+    <header>
+        <h1>MyPomodoro App</h1>
+    </header>
+
+    <main>
+        <div class="task">
+            <h2>My Task</h2>
+            <form >
+                <label for="title">What do yo wish to do?</label>
+                <input type="text" name="title">
+<div id="estimate">
+                <label  for="time">Estimate task time?</label>
+                <input list="hours" name="time">
+            </div>
+                <datalist id="hours">
+
+<option value="Thirty minutes"></option>
+<option value="One Hour"></option>
+<option value="Two hours"></option>
+<option value="Three Hours"></option>
+<option value="I have no idea"></option>
+                </datalist>
+                <label for=""></label>
+            </form>
+        </div>
+
+        <div class="buttons">
+            <button id="start"  >Start Pomo</button>
+            <button id="five">Start Break</button>
+            <button id="half">Take half</button>
+            
+        </div>
+        <div class="boxes">
+            <div class="timer">
+                <p id="hours"></p>
+            </div>
+            <div class="mains">
+                <p id=mains></p>
+            </div> 
+            <div  class="seconds">
+                <p id="seconds"></p>
+            </div> 
+        </div>  
+            
+            
+        <p class="more">
+            <button id="count">0</button>
+            <button id="set">Reset</button>
+        </div>
+    </main>
+    <script src="pomo.js"></script>
+</body>
+</html>

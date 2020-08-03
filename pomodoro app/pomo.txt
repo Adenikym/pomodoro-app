@@ -1,0 +1,9 @@
+#f7f7f7-white
+#43d8c9-cyan
+purple- #95389e
+black- #100303
+
+dark blue-#010a43
+pale pink-#ffc2c2
+mid pink-#ff9d9d
+dark pink-#ff2e63
